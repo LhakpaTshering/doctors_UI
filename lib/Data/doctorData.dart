@@ -1,0 +1,53 @@
+import 'package:practice_ui/model/DoctorModel.dart';
+
+List<DoctorModel> alldata = [
+  DoctorModel(
+    name: 'Dr.Loday Tshering',
+    imgUrl: 'assets/images/Loday Tshering.jpg',
+    speciality: 'Brain Disease',
+    rating: 4.5,
+    payment: 50,
+    patient: 1200,
+    experience: 10,
+    appointmentDay: ['sat', 'sun', 'wed'],
+    appointmentTime: ['2-3 pm', '3-30 pm', '8-9 pm'],
+    aboutDoc:
+        'Doctor is a health professional who practices medicine, which is concerned with promoting, maintaining or restoring health through the study.',
+  ),
+  DoctorModel(
+    name: 'Dr.Tshering Penjor',
+    imgUrl: 'assets/images/Bhutanese doctor1.jpg',
+    speciality: 'kidney Disease',
+    rating: 5.5,
+    payment: 60,
+    patient: 1600,
+    experience: 15,
+    appointmentDay: ['mon', 'wed', 'sat'],
+    appointmentTime: ['5-3 pm', '5-30 pm', '2-7 pm'],
+    aboutDoc: 'Doctors play a very essential role in human life.',
+  ),
+  DoctorModel(
+    name: 'Dr.Rinchen',
+    imgUrl: 'assets/images/Bhutanese doctor2.jpg',
+    speciality: 'Throat Cancer',
+    rating: 5.7,
+    payment: 55,
+    patient: 1300,
+    experience: 9,
+    appointmentDay: ['tue', 'wed', 'fri'],
+    appointmentTime: ['5-6 pm', '5-6 pm', '2-5 pm'],
+    aboutDoc: 'Doctors play a very essential role in human life.',
+  ),
+  DoctorModel(
+    name: 'Dr.Tshering Dorji',
+    imgUrl: 'assets/images/bhutanese doctor3.jpg',
+    speciality: 'Kidney Cancer',
+    rating: 5.2,
+    payment: 50,
+    patient: 1200,
+    experience: 8,
+    appointmentDay: ['tue', 'wed', 'fri'],
+    appointmentTime: ['5-6 pm', '5-6 pm', '2-5 pm'],
+    aboutDoc: 'Doctors play a very essential role in human life.',
+  ),
+];
